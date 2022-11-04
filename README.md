@@ -10,6 +10,7 @@ Python anywhere - https://www.pythonanywhere.com/ (CLOUD SERVICE)
 **Things you need to have in the account** 
 
 Buy WhatsApp API from the link (https://rapidapi.com/toumirttv/api/whatsapp-api5/) and set up the API to use (It has a free plan).
+
 Activate your cloud service (It has a free plan).
 
 After setting up, follow the steps.
