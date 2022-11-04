@@ -23,7 +23,7 @@ Create a python file and copy or download the GitHub code in it.
 
 Copy the python request code from Operations in the API, paste it into the method API setup and give the parameters accordingly.
 
-Create a JSON file, and use the example JSON file in GitHub(https://github.com/srinivas19BCN7074/whats-app-automation/blob/main/data.json). Give the location of the JSON file in python code.
+Create a JSON file, and use the example JSON file in GitHub(https://github.com/shortcutdev/whats-app-automation/blob/main/data.json). Give the location of the JSON file in python code.
 
 Change the date and time as per your requirements in the schedule method. 
 
