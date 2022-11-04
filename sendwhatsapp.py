@@ -4,7 +4,7 @@ import requests
 import time
 import os
 
-os.environ["TZ"] = "Asia/Calcutta"
+os.environ["TZ"] = "Time zone"
 time.tzset()
 
 
@@ -12,22 +12,21 @@ time.tzset()
 def APIsetup(number, msg):
     url = "https://whatsapp-api5.p.rapidapi.com/Sendtext"
 
-    querystring = {"access_token": "7cedc5331900d7bdab8716fc021da98e", "instance_id": "63601AE81D57E", "message": msg,
-                   "number": number}
+    querystring = {"access_token":"a27e1f9ca234xxxxxxxxxxxxx","instance_id":"609ACF283XXXX","message":msg,"number":number}
 
     headers = {
-        "X-RapidAPI-Key": "f5a4b6901amsh7c47b8aad7fa8b0p15b34ajsne8376d64239d",
-        "X-RapidAPI-Host": "whatsapp-api5.p.rapidapi.com"
+	    "X-RapidAPI-Key": "SIGN-UP-FOR-KEY",
+	    "X-RapidAPI-Host": "whatsapp-api5.p.rapidapi.com"
     }
 
     response = requests.request("GET", url, headers=headers, params=querystring)
 
-    # print(response.text)
+    print(response.text)
 
 
 # Reading from JSON
 def read_from_json():
-    jsondata = open('/home/19bcn7074/whatsapp/data.json', 'r')
+    jsondata = open('location of json file', 'r')
     js = jsondata.read()
     obj = json.loads(js)
     return list(obj)
@@ -43,7 +42,7 @@ def schedule():
 
         for i in obj:
 
-            if x.strftime("%x") == i["dob"] and x.strftime("%X") == "00:04:50":
+            if x.strftime("%x") == i["dob"] and x.strftime("%X") == "00:00:10":
                 num = i['number']
                 msg = i['msg']
                 # print(msg)
