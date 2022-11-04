@@ -11,10 +11,16 @@ Activate your cloud service (It has a free plan).
 
 After setting up, follow the steps.
 
-Steps to use - 
+Steps to use -
+
 Create a directory in pythonanywhere and upload the python and JSON files in that directory. 
+
 Create a python file and copy or download the GitHub code in it. 
-Copy the python request code from Operations in the API, paste it into the method API setup and give the parameters accordingly. 
+
+Copy the python request code from Operations in the API, paste it into the method API setup and give the parameters accordingly.
+
 Create a JSON file, and use the example JSON file in GitHub(https://github.com/srinivas19BCN7074/whats-app-automation/blob/main/data.json). Give the location of the JSON file in python code.
+
 Change the date and time as per your requirements in the schedule method. 
+
 Schedule the python file to run daily at a particular time in pythonanywhere.
