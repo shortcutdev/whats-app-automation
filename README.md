@@ -15,7 +15,7 @@ Activate your cloud service (It has a free plan).
 
 After setting up, follow the steps.
 
-**Steps to use **
+**Steps to use**
 
 Create a directory in pythonanywhere and upload the python and JSON files in that directory. 
 
